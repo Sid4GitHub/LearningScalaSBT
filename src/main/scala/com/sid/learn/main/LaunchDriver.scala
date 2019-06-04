@@ -6,7 +6,7 @@ object LaunchDriver {
   def main(args : Array[String]): Unit = {
     //println("----------------------Driver----------------------\n\n")
 
-    /*FirstClassHighOrderFunction.testExample()
+    FirstClassHighOrderFunction.testExample()
 
     LoopTest.testExample()
 
@@ -27,8 +27,10 @@ object LaunchDriver {
     AbstractClassTest.testExample()
     ScalaArrayTest.testExample()
     ScalaMultidimensionalArrayTest.testExample()
-    ScalaStringInterpolationUsingSAndFMethod.testExample()*/
-    //Exceptionhandeling.testExample()
+    ScalaStringInterpolationUsingSAndFMethod.testExample()
+    Exceptionhandeling.testExample()
     ScalaCustomException.testExample()
+    BitSetExample.testExample()
+    SetExample.testExample()
   }
 }

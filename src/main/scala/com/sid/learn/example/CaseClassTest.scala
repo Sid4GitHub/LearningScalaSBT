@@ -8,7 +8,6 @@ object CaseClassTest extends StandardExample{
   case class CaseClass2(a:Int) //extends SuperTrait         // Case class
   case object CaseObject //extends SuperTrait               // Case object
   override def testExample(): Unit = {
-    classLogPrint()
     callCase(CaseClass1(10,10))
     callCase(CaseClass2(10))
     callCase(CaseObject)

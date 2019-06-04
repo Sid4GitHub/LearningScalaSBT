@@ -5,7 +5,6 @@ import com.sid.learn.common.StandardExample
 object Exceptionhandeling extends StandardExample{
 
   override def testExample(): Unit = {
-    classLogPrint()
     var a=10
     var b=0
     try{

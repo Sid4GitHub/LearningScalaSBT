@@ -16,7 +16,6 @@ class Bike extends Vehicle{
 object FieldOverridingTest extends StandardExample{
 
   override def testExample(): Unit = {
-    classLogPrint()
     var b = new Bike()
     b.show()
   }

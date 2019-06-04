@@ -5,7 +5,6 @@ import com.sid.learn.common.StandardExample
 object FirstClassHighOrderFunction extends StandardExample {
 
   override def testExample(): Unit ={
-    classLogPrint()
     val a= -5 to 5
     println(a.mkString(", "))
     a.map(x=>{getOps(x)(x)+", "}).foreach(print(_))

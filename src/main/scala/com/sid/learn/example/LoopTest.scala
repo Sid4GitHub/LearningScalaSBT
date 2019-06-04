@@ -5,7 +5,6 @@ import com.sid.learn.common.StandardExample
 object LoopTest extends StandardExample{
 
   override def testExample(): Unit ={
-    classLogPrint()
     functionExample(25, multiplyBy2)                   // Passing a function as parameter
   }
   def functionExample(a:Int, f:Int=>AnyVal):Unit = {

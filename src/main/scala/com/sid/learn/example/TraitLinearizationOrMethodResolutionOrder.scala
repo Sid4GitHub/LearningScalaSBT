@@ -5,7 +5,7 @@ import com.sid.learn.common.StandardExample
 
 object TraitLinearizationOrMethodResolutionOrder extends StandardExample{
   override def testExample(): Unit = {
-    classLogPrint()
+
     println((new A).op)
     println((new B).op)
   }

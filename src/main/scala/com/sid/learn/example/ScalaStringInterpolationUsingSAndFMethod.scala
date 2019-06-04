@@ -4,7 +4,7 @@ import com.sid.learn.common.StandardExample
 
 object ScalaStringInterpolationUsingSAndFMethod extends StandardExample{
   override def testExample(): Unit = {
-    classLogPrint()
+
     var s1 = "Scala string example"
     println(s"This is $s1")
 

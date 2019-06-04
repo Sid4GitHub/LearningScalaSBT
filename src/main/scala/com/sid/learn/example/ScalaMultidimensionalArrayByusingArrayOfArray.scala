@@ -4,7 +4,6 @@ import com.sid.learn.common.StandardExample
 
 object ScalaMultidimensionalArrayByusingArrayOfArray extends StandardExample{
   override def testExample(): Unit = {
-    classLogPrint()
 
     var arr = Array(Array(1, 2, 3, 4, 5), Array(6, 7, 8, 9, 10)) // Creating multidimensional array
 
